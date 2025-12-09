@@ -6,7 +6,7 @@ fn main() {
         .status()
         .expect("failed to run command");
 
-    if status.succe() {
+    if status.success() {
         println!("✔ Command succeeded");
     } else {
         println!("✘ Command failed");
