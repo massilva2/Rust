@@ -4,7 +4,7 @@ fn main() {
     let status = Command::new("rustc")
         .arg("--version")
         .status()
-        .expect("failed to run command");
+        .expect("failed to run commmand");
 
     if status.success() {
         println!("✔ Command succeeded");
